@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useState } from "react"
 import NavLink from "./navLink"
+import { motion } from "framer-motion"
 
 const links = [
     {url: "/", title: "Home"},
@@ -13,6 +14,10 @@ const links = [
 
 const NavBar = () => {
     const [open,setOpen] = useState(false)
+
+    const topVariants = {
+        
+    }
 
  return (
     <div className='h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
@@ -51,9 +56,9 @@ const NavBar = () => {
     <div className="md:hidden">
     {/* MENU BUTTON */}
     <button className="w-10 h-8 flex flex-col justify-between z-50 relative" onClick={(()=>setOpen(!open))}>
-        <div className="w-10 h-1 bg-black rounded"></div>
-        <div className="w-10 h-1 bg-black rounded"></div>
-        <div className="w-10 h-1 bg-black rounded"></div>
+        <motion.div className="w-10 h-1 bg-black rounded"></motion.div>
+        <motion.div className="w-10 h-1 bg-black rounded"></motion.div>
+        <motion.div className="w-10 h-1 bg-black rounded"></motion.div>
     </button>
     {/* MENU LIST */}
     { open && (
