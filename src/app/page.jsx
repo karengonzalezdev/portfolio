@@ -1,27 +1,32 @@
+"use client"
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Homepage = () => {
   return (
-    <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+
+    <motion.div className="h-full overflow-scroll sm:overflow-scroll md:overflow-scroll lg:overflow-clip xl:overflow-clip" initial={{y:"-200vh"}} animate={{y:"0%"}} transition={{duration:1}}>
+    <div className="h-full flex flex-col lg:flex-row">
     {/* IMAGE CONTAINER */}
     <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-      <Image src="/hero.png" alt="BackgroundImage" fill priority className="object-contain" />
+      <Image src="/background.gif" alt="BackgroundImage" fill priority className="" />
     </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+        <div className="h-1/2 lg:h-full lg:w-1/2 px-4 flex flex-col gap-5 items-center justify-center sm:px-6 md:px-8 lg:px-12 xl:px-20 pt-10 sm:pt-11 md:pt-10 lg:pt-0 xl:pt-0 mt-11 sm:mt-5 md:mt-5 lg:mt-0 xl:mt-0">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-2xl md:text-5xl lg:text-5.5xl xl:tex-6xl font-bold">
             Crafting Digital Experiences, Designing Tomorrow.
           </h1>
           {/* DESC */}
-          <p className="md:text-xl">
+          <p className="text-sm sm:text-xl md:text-xl">
             Welcome to my digital canvas, where innovation and creativity
             converge. With a keen eye for aesthetics and a mastery of code, my
             portfolio showcases a diverse collection of projects that reflect my
             commitment to excellence.
           </p>
           {/* BUTTONS */}
-          <div className="w-full flex gap-4">
+          <div className="w-full flex gap-4 pt-5">
             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
               View My Work
             </button>
@@ -31,6 +36,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      </motion.div>
   )
 };
 
