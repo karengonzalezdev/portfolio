@@ -2,8 +2,10 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
+
   return (
 
     <motion.div className="h-full overflow-scroll sm:overflow-scroll md:overflow-scroll lg:overflow-clip xl:overflow-clip" initial={{y:"-200vh"}} animate={{y:"0%"}} transition={{duration:1}}>
@@ -16,23 +18,19 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 px-4 flex flex-col gap-5 items-center justify-center sm:px-6 md:px-8 lg:px-12 xl:px-20 pt-10 sm:pt-11 md:pt-10 lg:pt-0 xl:pt-0 mt-11 sm:mt-5 md:mt-5 lg:mt-0 xl:mt-0">
           {/* TITLE */}
           <h1 className="text-2xl md:text-5xl lg:text-5.5xl xl:tex-6xl font-bold">
-            Crafting Digital Experiences, Designing Tomorrow.
+            Karen Gonzalez
           </h1>
           {/* DESC */}
           <p className="text-sm sm:text-xl md:text-xl">
-            Welcome to my digital canvas, where innovation and creativity
+            Welcome to my digital portfolio, where innovation and creativity
             converge. With a keen eye for aesthetics and a mastery of code, my
             portfolio showcases a diverse collection of projects that reflect my
             commitment to excellence.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4 pt-5">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View My Work
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
-              Contact Me
-            </button>
+          <Link href="/portfolio" className="btn btn-primary p-4 rounded-lg ring-1 ring-black bg-black text-white">View My Work</Link>
+          <Link href="/contact" className="btn btn-primary p-4 rounded-lg ring-1 ring-black">Contact Me</Link>
           </div>
         </div>
       </div>
