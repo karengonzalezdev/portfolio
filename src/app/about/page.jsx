@@ -153,7 +153,7 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
             </div>
         </div>
       {/* SVG CONTAINER */}
-        <div className=" bg-red-500 hidden lg:block sticky top-0 z-30 w-1/3 xl:w-1/2">
+        <div className="hidden lg:block sticky top-0 z-30 w-1/3 xl:w-1/2">
            <Brain scrollYProgress={scrollYProgress}/> 
         </div>
       </div>
