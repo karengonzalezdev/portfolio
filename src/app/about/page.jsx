@@ -20,7 +20,7 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
       {/* CONTAINER */}
       <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
       {/* TEXT CONTAINER */}
-        <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:p-48 flex flex-col gap-24 md:gap-22 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
+        <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 pt-10 flex flex-col gap-24 md:gap-22 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
           {/* BIOGRAPHY */}
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
@@ -53,7 +53,7 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
           </div>
           {/* SKILLS */}
           <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
-            <motion.h1 initial={{x:"-300px"}} animate={isSkillRefInView ? {x:0} : {}} transition={{delay:0.2}} className="font-bold text-2xl">SKILLS</motion.h1>
+            <motion.h1 className="font-bold text-2xl" initial={{x:"-300px"}} animate={isSkillRefInView ? {x:0} : {}} transition={{delay:0.2}} >SKILLS</motion.h1>
             <motion.div initial={{x:"-300px"}} animate={isSkillRefInView ? {x:0} : {}} className="flex gap-4 flex-wrap">
             <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">JavaScript</div>
             <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">HTML5</div>
@@ -153,7 +153,7 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
             </div>
         </div>
       {/* SVG CONTAINER */}
-        <div className="hidden lg:block sticky top-0 z-30 w-1/3 xl:1/2">
+        <div className=" bg-red-500 hidden lg:block sticky top-0 z-30 w-1/3 xl:w-1/2">
            <Brain scrollYProgress={scrollYProgress}/> 
         </div>
       </div>

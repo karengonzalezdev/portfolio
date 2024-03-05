@@ -64,18 +64,18 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-8 text-white bg-red-300">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
+                <div className="flex flex-col gap-6 text-white">
+                  <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl">
                     {item.title}
                   </h1>
                   <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-500px lg:h-350px xl:w-600px xl:h-420px">
-                    <Image src={item.img} alt="" fill />
+                    <Image src={item.img} alt="image" fill/>
                   </div>
-                  <p className="w-80 md:w-96 lg:w-500px lg:text-lg xl:w-600px">
+                  <p className="w-80 md:w-96 lg:w-500px lg:text-lg xl:w-600px text-justify">
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                    <button className="text-sm md:p-4 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
                   </Link>
                 </div>
               </div>
@@ -83,8 +83,8 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="text-8xl">Do you have a project?</h1>
+      <div className="w-screen h-screen flex flex-col items-center justify-center text-center overflow-clip">
+        <h1 className="text-6xl">Do you have a project?</h1>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
@@ -106,7 +106,7 @@ const PortfolioPage = () => {
           </motion.svg>
           <Link
             href="/contact"
-            className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
+            className="absolute w-16 h-16 md:w-28 md:h-28 top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-lg flex items-end justify-center"
           >
             Hire Me
           </Link>
