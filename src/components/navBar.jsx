@@ -85,19 +85,19 @@ const listItemVariants = {
     {/* SOCIAL */}
     <div className="hidden md:flex gap-4 w-1/3">
             <Link href="https://github.com/karenfggutierrez">
-            <img src="/github.png" alt="GitHub" width={24} height={24}/>
+            <img src="https://github.com/karenfggutierrez/portfolio/blob/gh-pages/public/github.png" alt="GitHub" width={24} height={24}/>
             </Link>
             <Link href="https://www.linkedin.com/in/karenfggutierrez">
-            <img src="/linkedin.png" alt="LinkedIn" width={24} height={24}/>
+            <img src="https://github.com/karenfggutierrez/portfolio/blob/gh-pages/public/linkedin.png" alt="LinkedIn" width={24} height={24}/>
             </Link>
             <Link href="/">
-            <img src="/figma.png" alt="Figma" width={24} height={24}/>
+            <img src="https://github.com/karenfggutierrez/portfolio/blob/gh-pages/public/figma.png" alt="Figma" width={24} height={24}/>
             </Link>
             <Link href="/">
-            <img src="/workana.png" alt="Workana" width={24} height={24}/>
+            <img src="https://github.com/karenfggutierrez/portfolio/blob/gh-pages/public/workana.png" alt="Workana" width={24} height={24}/>
             </Link>
             <Link href="/">
-            <img src="/upWork.png" alt="UpWork" width={24} height={24}/>
+            <img src="https://github.com/karenfggutierrez/portfolio/blob/gh-pages/public/upWork.png" alt="UpWork" width={24} height={24}/>
             </Link>
     </div>   
     {/* RESPONSIVE MENU */}

@@ -12,7 +12,7 @@ const Homepage = () => {
     <div className="h-full flex flex-col lg:flex-row">
     {/* IMAGE CONTAINER */}
     <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-      <Image src="/portfolio/public/background.gif" alt="BackgroundImage" fill priority className="" />
+      <Image src="https://github.com/karenfggutierrez/portfolio/blob/gh-pages/public/background.gif" alt="BackgroundImage" fill priority className="" />
     </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 px-4 flex flex-col gap-5 items-center justify-center sm:px-6 md:px-8 lg:px-12 xl:px-20 pt-10 sm:pt-11 md:pt-10 lg:pt-0 xl:pt-0 mt-11 sm:mt-5 md:mt-5 lg:mt-0 xl:mt-0">
