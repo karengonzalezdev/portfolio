@@ -8,34 +8,34 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "SecondPrime",
+    desc: "E-commerce dedicated to technology sales, developed from scratch to deploy.",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "https://github.com/karenfggutierrez/ShichiTeam7",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Travel Agency",
+    desc: "Project for a travel agency from a popular bank. Build from scratch to deploy.",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "https://github.com/karenfggutierrez/AgenciaDeViaje-Front",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Front End path",
+    desc: "Complete path of courses taken. Front End Developer Meta path. Contains code made in each course.",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "https://github.com/karenfggutierrez/FrontendPath",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Codewars Challenges",
+    desc: "Contains coding JavaScript challenges.",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    link: "https://github.com/karenfggutierrez/Codewars",
   },
 ];
 
@@ -106,10 +106,10 @@ const PortfolioPage = () => {
           </motion.svg>
           <Link
             href="/contact"
-            className="absolute w-16 h-16 md:w-28 md:h-28 top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-lg flex items-end justify-center"
+            className="absolute w-16 h-16 md:w-28 md:h-28 top-0 left-0 right-0 bottom-0 m-auto text-white rounded-lg flex items-end justify-center"
           >
-            Hire Me
-          </Link>
+           <h1 className="bg-black text-sm sm:text-md md:text-xl lg:text-xl xl:text-xl">Hire Me</h1>
+           </Link>
         </div>
       </div>
     </motion.div>

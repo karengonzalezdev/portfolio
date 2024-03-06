@@ -50,7 +50,7 @@ const form = useRef();
             />
             <span>My mail adress is:</span>
             <input name="user_email" type="text" className="bg-transparent border-b-2 border-b-black outline-none" />
-            <span>Regards</span>
+            <span>Regards.</span>
             <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">Send</button>
             {success && <span className="text-green-600 font-semibold">Your message has been sent succesfully!</span>}
             {error && <span className="text-red-600 font-semibold">Something went wrong!</span>}

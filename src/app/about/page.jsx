@@ -23,9 +23,9 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
         <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 pt-10 flex flex-col gap-24 md:gap-22 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
           {/* BIOGRAPHY */}
           <div className="flex flex-col gap-12 justify-center">
-            <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-            <p className="text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, mollitia magnam? Necessitatibus velit totam eligendi itaque dolorum iste minima explicabo, voluptatem a odio harum repudiandae. Dolore voluptatibus voluptas debitis. Est!</p>
-            <span className="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem perferendis corporis facilis repudiandae unde odit accusamus et</span>
+            <h1 className="font-bold text-2xl">ABOUT ME</h1>
+            <p className="text-lg">I am a proactive and dedicated Front End Developer, who focuses on solving problems applying creativity. I am interested in keep on growing in this field, and being in constant learning. My main skills are JavaScript, React.js, HTML and CSS</p>
+            <span className="italic">I am a Nanotechnology Engineer, and I also studied in a Full Stack Developer Bootcamp. I consider myself a technology enthusiast.</span>
             <div className="self-end"></div>
             {/* SCROLL DOWN */}
             <motion.svg
@@ -65,6 +65,40 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
             <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">TypeScript</div>
             <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Bootstrap</div>
             <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Figma</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Framer Motion</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">JSX</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">SASS</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Git & Github</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Visual Studio Code</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">UX/UI</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Java</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">SQL</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Spring & Springboot</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">JSON</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Eclipse</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Intellij</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">API Rest</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">API Soap</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">SVN</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Scrum</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Azure DevOps</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">AWS</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Postman</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Swagger</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Microsoft 365</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">MySQL</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Oracle Database</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Razor</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Linux Shell</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Node.js & NPM</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Apache Maven</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Bitbucket</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Confluence</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Jira</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Jenkins</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Microservices</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Sonarqube</div>
+            <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">Trello</div>
           </motion.div>
           {/* SCROLL DOWN */}
           <motion.svg
@@ -125,20 +159,20 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3">
-                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Full Stack Developer</div>
-                <div className="p-3 text-sm italic">Development of Web pages</div>
-                <div className="p-3 text-purple-600 text-sm font-semibold">2022 - 2024</div>
-                <div className="p1 rounded bg-white text-sm font-semibold w-fit">Capgemini</div>
+                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Continuous Improvement Technician</div>
+                <div className="p-3 text-sm italic">Lean Methodology, metrics creation, etc.</div>
+                <div className="p-3 text-purple-600 text-sm font-semibold">2020 - 2022</div>
+                <div className="p1 rounded bg-white text-sm font-semibold w-fit">Plexus Corp.</div>
                 </div>
               </div>
               {/* EXPERIENCE ITEMS 3 */}
               <div className="flex justify-between h-48">
                 {/* LEFT */}
                 <div className="w-1/3">
-                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Full Stack Developer</div>
-                <div className="p-3 text-sm italic">Development of Web pages</div>
-                <div className="p-3 text-purple-600 text-sm font-semibold">2022 - 2024</div>
-                <div className="p1 rounded bg-white text-sm font-semibold w-fit">Capgemini</div>
+                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Chef & Waitress</div>
+                <div className="p-3 text-sm italic">Customer service and food preparation</div>
+                <div className="p-3 text-purple-600 text-sm font-semibold">2016 - 2020</div>
+                <div className="p1 rounded bg-white text-sm font-semibold w-fit">Hacienda del Sol Hotel</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6">
