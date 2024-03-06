@@ -1,5 +1,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp; ⭐ See Demo ⭐ <br/>
 [Karen Gonzalez Portfolio](https://karenfggutierrez.github.io/portfolio/)
 
-Home Page <br/>
-![Home](https://user-images.githubusercontent.com/69605681/310583048-ca91a5a9-2d33-47e9-841e-dc8bdcfc2a43.png)
+<br/>
+
+Home Page <br/><br/>
+![image](https://github.com/karenfggutierrez/portfolio/assets/69605681/b7a7454e-78f2-40ce-83a5-6ec4dcada49b)
+
