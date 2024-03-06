@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
+import { createRoot } from "react-dom/client"
 import PortfolioPage from "./portfolio/page";
 import ContactPage from "./contact/page";
 import Homepage from "./page";
@@ -21,6 +21,6 @@ function App () {
       </Router>
     )
   )
-};
+}
 
 export default App;
