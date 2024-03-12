@@ -1,6 +1,7 @@
 "use client"
 import Brain from "@/components/brain"
 import { motion, useInView, useScroll } from "framer-motion"
+import Image from "next/image"
 import { useRef } from "react"
 
 const AboutPage = () => {
@@ -23,8 +24,12 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
         <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 pt-10 flex flex-col gap-24 md:gap-22 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
           {/* BIOGRAPHY */}
           <div className="flex flex-col gap-12 justify-center">
-            <h1 className="font-bold text-2xl">ABOUT ME</h1>
-            <p className="text-lg">I am a proactive and dedicated Front End Developer, who focuses on solving problems applying creativity. I am interested in keep on growing in this field, and being in constant learning. My main skills are JavaScript, React.js, HTML and CSS</p>
+            {/* IMAGE */}
+      <div className="h-[10rem] w-[10rem] relative m-auto justify-center">
+      <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/ProfilePicture.jpg" alt="Profile picture" fill priority className="rounded-full absolute"/>
+      </div>
+            <h1 className="font-bold text-2xl items-center justify-center text-center">ABOUT ME</h1>
+            <p className="text-lg text-justify">I am a proactive and dedicated Front End Developer, who focuses on solving problems applying creativity. I am interested in keep on growing in this field, and being in constant learning. My main skills are JavaScript, React.js, HTML and CSS</p>
             <span className="italic">I am a Nanotechnology Engineer, and I also studied in a Full Stack Developer Bootcamp. I consider myself a technology enthusiast.</span>
             <div className="self-end"></div>
             {/* SCROLL DOWN */}
