@@ -90,13 +90,13 @@ const listItemVariants = {
             <Link href="https://www.linkedin.com/in/karenfggutierrez">
             <img src="./linkedin.png" alt="LinkedIn" width={24} height={24}/>
             </Link>
-            <Link href="/">
+            <Link href="https://www.figma.com/@karenfggtz">
             <img src="./figma.png" alt="Figma" width={24} height={24}/>
             </Link>
-            <Link href="/">
+            <Link href="https://www.workana.com/freelancer/12400a56e29dde332e4b9b1c3bc20035">
             <img src="./workana.png" alt="Workana" width={24} height={24}/>
             </Link>
-            <Link href="/">
+            <Link href="https://www.upwork.com/freelancers/~01b7369ac920621af3">
             <img src="./upWork.png" alt="UpWork" width={24} height={24}/>
             </Link>
     </div>   
