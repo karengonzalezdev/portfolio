@@ -9,6 +9,7 @@ const links = [
     {url: "/", title: "Home"},
     {url: "/about", title: "About"},
     {url: "/portfolio", title: "Portfolio"},
+    {url: "/certificates", title: "Certificates"},
     {url: "/contact", title: "Contact"},
 ]
 
@@ -75,13 +76,6 @@ const listItemVariants = {
         <NavLink link={link} key={link.title} />
     ))} 
         </div>
-    {/* LOGO */}
-    <div className="hidden lg:flex xl:flex xl:w-1/3 xl:justify-center">
-        <Link href="/" className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center">
-        <span className="text-white mr-1">Karen</span>
-        <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">.dev</span>
-        </Link>
-    </div>
     {/* SOCIAL */}
     <div className="flex gap-2 sm:gap-4 md:gap-4 lg:gap-4 xl:gap-4 w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3">
             <Link href="https://github.com/karenfggutierrez">
@@ -95,9 +89,6 @@ const listItemVariants = {
             </Link>
             <Link href="https://www.workana.com/freelancer/12400a56e29dde332e4b9b1c3bc20035">
             <img src="./workana.png" alt="Workana" width={24} height={24}/>
-            </Link>
-            <Link href="https://www.upwork.com/freelancers/~01b7369ac920621af3">
-            <img src="./upWork.png" alt="UpWork" width={24} height={24}/>
             </Link>
     </div>   
     {/* RESPONSIVE MENU */}
