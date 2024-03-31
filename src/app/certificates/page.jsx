@@ -5,9 +5,7 @@ const CertificatesPage = () => {
 return (
 
 <div className="h-full overflow-scroll">
-<div className="flex flex-col gap-5">
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
+<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:flex-row xl:flex-wrap">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/YellowBelt.jpg" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -36,9 +34,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row bg-blue-500">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/DevOps.png" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -67,9 +62,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row bg-blue-500">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/IntroductionToFrontEnd.png" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -98,9 +90,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/ProgrammingWithJavaScript.png" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -129,9 +118,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/ScrumFundamentals.PNG" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -160,9 +146,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/CSSPositioning.jpg" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -191,9 +174,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/HTML5WebComponentFundamentals.jpg" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -222,9 +202,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/IntroductionToInformationArchitecture.jpg" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -253,9 +230,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/JavaScriptFundamentals.jpg" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -284,9 +258,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/SemanticHTML.jpg" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -315,9 +286,6 @@ return (
 </div>
 </div>
 
-</div>
-
-<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:flex-row xl:flex-row">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/UnitTestingWithJUnit5.png" alt="Profile picture" fill priority className="absolute" />
 <div className="text-only">
@@ -344,8 +312,6 @@ return (
 <div className="text-only">
 <h2>Certificate</h2>
 </div>
-</div>
-
 </div>
 
 </div>
