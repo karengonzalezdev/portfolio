@@ -1,10 +1,11 @@
 import Image from "next/image"
+import ScrollButton from "@/components/scrollButton"
 
 const CertificatesPage = () => {
 
 return (
 
-<div className="h-full pl-10 pr-10 overflow-scroll">
+<div className="bg-violet-50 pt-10 pl-10 pr-10">
 <div className="flex flex-col gap-7 justify-center items-center lg:justify-between xl:justify-between 
 sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:flex-row xl:flex-wrap">
 
@@ -17,7 +18,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/AdvancedReact.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -26,7 +27,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/ProgrammingWithJavaScript.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -35,7 +36,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/ResponsiveWebDesign.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -44,7 +45,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/HTMLandCSSinDepth.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -62,7 +63,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/HTML.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -80,7 +81,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/PrinciplesOfUXUIDesign.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -89,7 +90,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/ReactBasics.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -107,7 +108,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/VersionControl.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -116,7 +117,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/DevOps.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -125,7 +126,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/IntroductionToAWS.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -134,7 +135,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/RemoteWorkProfessional.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -152,7 +153,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/ScrumMaster.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -161,7 +162,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/YellowBelt.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -170,7 +171,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/C1EF.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -179,7 +180,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/HTMLFundamentals.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -197,7 +198,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/PracticalHTML5.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -206,7 +207,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/SemanticHTML.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -215,7 +216,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/HTML5WebComponentFundamentals.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -224,7 +225,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/BuildingOnHTML5.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -242,7 +243,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/CSSPositioning.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -251,7 +252,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/JavaScriptFundamentals.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -260,7 +261,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/HTMLCSSandJavaScript.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -269,7 +270,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/ResponsiveWebsitesWithBootstrap3.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -287,7 +288,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/GettingStartedinUXDesign.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -296,7 +297,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/UserExperienceTheBigPicture.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -305,7 +306,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/FundamentalsOfPOOJava.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -314,7 +315,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/Java8Fundamentals.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -332,7 +333,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/IntroductionToSQL.PNG" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -341,7 +342,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/JavaJSONFundamentals.jpg" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -350,7 +351,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/MavenFundamentals.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -359,7 +360,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-blue-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/SpringBootFundamentals.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -377,7 +378,7 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-yellow-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
 <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/Certificates/UnitTestingWithJUnit5.png" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
@@ -386,18 +387,18 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-green-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
-<Image src="" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
+<Image src="/" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
 <h2></h2>
 </div>
 </div>
 </div>
 
-<div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
+<div className="h-[16rem] w-[17rem] pt-5 bg-red-100 rounded-xl shadow-lg shadow-stone-700">
 <div className="h-[10rem] w-[15rem] relative m-auto justify-center">
-<Image src="" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
+<Image src="/" alt="Certificate image" fill priority className="absolute border-solid border-slate-700 border-opacity-50 border-[5px]" />
 <div className="text-only pt-[70%] text-center text-lg italic">
 <h2></h2>
 </div>
@@ -405,7 +406,13 @@ sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:fl
 </div>
 
 </div>
+<div>
+<ScrollButton />
 </div>
+</div>
+
+
 )}
+
 
 export default CertificatesPage
