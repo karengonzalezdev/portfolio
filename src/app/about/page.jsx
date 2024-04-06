@@ -30,7 +30,7 @@ const isExperienceRefInView = useInView(experienceRef, {once:true}, {margin:"-10
       </div>
             <h1 className="font-bold text-2xl items-center justify-center text-center">ABOUT ME</h1>
             <p className="text-lg text-justify">I am a proactive and dedicated Front End Developer, who focuses on solving problems applying creativity. I am interested in keep on growing in this field, and being in constant learning. My main skills are JavaScript, React.js, HTML and CSS</p>
-            <span className="italic">I am a Nanotechnology Engineer, and I also studied in a Full Stack Developer Bootcamp. I consider myself a technology enthusiast.</span>
+            <span className="italic">I studied Nanotechnology engineering, and I also completed a Full Stack Developer Bootcamp. I consider myself a technology enthusiast.</span>
             <div className="self-end"></div>
             {/* SCROLL DOWN */}
             <motion.svg
