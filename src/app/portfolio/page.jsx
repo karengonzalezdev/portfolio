@@ -7,14 +7,22 @@ import { useRef } from "react";
 const items = [
   {
     id: 1,
+    color: "from-purple-300 to-red-300",
+    title: "Cyberstudio",
+    desc: "Photography studio.",
+    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/CyberstudioPrincipal.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    link: "https://cyberstudio.vercel.app/",
+  },
+  {
+    id: 2,
     color: "from-red-300 to-blue-300",
     title: "SecondPrime",
-    desc: "E-commerce dedicated to technology sales, developed from scratch to deploy.",
+    desc: "E-commerce dedicated to technology sales.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/PageDownSecondPrime.PNG?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     link: "https://github.com/karenfggutierrez/ShichiTeam7",
   },
   {
-    id: 2,
+    id: 3,
     color: "from-blue-300 to-violet-300",
     title: "Travel Agency",
     desc: "Project for a travel agency from a popular bank. Build from scratch to deploy.",
@@ -22,20 +30,12 @@ const items = [
     link: "https://github.com/karenfggutierrez/AgenciaDeViaje-Front",
   },
   {
-    id: 3,
+    id: 4,
     color: "from-violet-300 to-purple-300",
     title: "Front End path",
     desc: "Complete path of courses taken. Front End Developer Meta path. Contains code made in each course.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/FrontEndPath.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     link: "https://github.com/karenfggutierrez/FrontendPath",
-  },
-  {
-    id: 4,
-    color: "from-purple-300 to-red-300",
-    title: "Codewars Challenges",
-    desc: "Contains coding JavaScript challenges.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/Codewars.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://github.com/karenfggutierrez/Codewars",
   },
 ];
 
@@ -75,7 +75,7 @@ const PortfolioPage = () => {
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="text-sm md:p-4 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Code</button>
+                    <button className="text-sm md:p-4 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
                   </Link>
                 </div>
               </div>
