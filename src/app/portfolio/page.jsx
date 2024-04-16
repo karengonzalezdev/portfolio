@@ -19,7 +19,7 @@ const items = [
     title: "SecondPrime",
     desc: "E-commerce dedicated to technology sales.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/PageDownSecondPrime.PNG?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://github.com/karenfggutierrez/ShichiTeam7",
+    link: "https://karenfggutierrez.github.io/SecondPrime/",
   },
   {
     id: 3,
