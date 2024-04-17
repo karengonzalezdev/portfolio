@@ -26,8 +26,8 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Travel Agency",
     desc: "Project for a travel agency from a popular bank. Build from scratch to deploy.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/TravelAgency.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://github.com/karenfggutierrez/AgenciaDeViaje-Front",
+    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/principalTravelAgency.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    link: "https://karenfggutierrez.github.io/TravelAgency/#/principal",
   },
   {
     id: 4,
