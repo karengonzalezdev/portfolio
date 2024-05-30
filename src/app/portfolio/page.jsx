@@ -15,6 +15,14 @@ const items = [
   },
   {
     id: 2,
+    color: "from-violet-300 to-purple-300",
+    title: "Technology Blog",
+    desc: "Blog that includes all the programming knowledge I have acquired.",
+    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/TechnologyBlog.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    link: "https://karenfggutierrez.github.io/blog/",
+  },
+  {
+    id: 3,
     color: "from-red-300 to-blue-300",
     title: "SecondPrime",
     desc: "E-commerce dedicated to technology sales.",
@@ -22,20 +30,12 @@ const items = [
     link: "https://karenfggutierrez.github.io/SecondPrime/",
   },
   {
-    id: 3,
+    id: 4,
     color: "from-blue-300 to-violet-300",
     title: "Travel Agency",
     desc: "Project for a travel agency from a popular bank.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/principalTravelAgency.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     link: "https://karenfggutierrez.github.io/TravelAgency/#/principal",
-  },
-  {
-    id: 4,
-    color: "from-violet-300 to-purple-300",
-    title: "Front End path",
-    desc: "Complete path of courses taken. Front End Developer Meta path. Contains code made in each course.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/FrontEndPath.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://github.com/karenfggutierrez/FrontendPath",
   },
 ];
 
