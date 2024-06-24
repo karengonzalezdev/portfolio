@@ -26,7 +26,7 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "SecondPrime",
     desc: "E-commerce dedicated to technology sales.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/PageDownSecondPrime.PNG?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/PageUpSecondPrime.PNG?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     link: "https://karenfggutierrez.github.io/SecondPrime/",
   },
   {

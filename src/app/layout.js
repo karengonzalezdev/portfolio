@@ -5,6 +5,7 @@ import TransitionProvider from "@/components/transitionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  image: "./HomePage.PNG",
   title: "Karen Gonzalez Portfolio",
   description: "Portfolio generated with Next.js",
 };
