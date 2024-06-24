@@ -5,8 +5,8 @@ const CertificatesPage = () => {
 
 return (
 
-<div className="bg-violet-50 pt-10 pl-10 pr-10">
-<div className="flex flex-col gap-7 justify-center items-center lg:justify-between xl:justify-between 
+<div className="bg-gradient-to-b from-blue-100 to-purple-200 p-10">
+<div className="flex flex-col gap-7 justify-center items-center lg:justify-between 
 sm:flex-row sm:flex-wrap md:flex-row md:flex-wrap lg:flex-row lg:flex-wrap xl:flex-row xl:flex-wrap">
 
 <div className="h-[16rem] w-[17rem] pt-5 bg-violet-100 rounded-xl shadow-lg shadow-stone-700">
