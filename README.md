@@ -4,7 +4,7 @@
 <br/>
 
 Home Page <br/><br/>
-![Home](https://github.com/karenfggutierrez/portfolio/assets/69605681/bf1452eb-0da6-4045-9c3d-40e526906bd6)
+![HomePage](https://github.com/karenfggutierrez/portfolio/assets/69605681/d380508d-fda0-4ad7-b8e0-24027e0135dd)
 
 <br/>
 
