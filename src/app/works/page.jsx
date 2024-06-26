@@ -7,15 +7,15 @@ import { useRef } from "react";
 const items = [
   {
     id: 1,
-    color: "from-purple-300 to-red-300",
+    color: "from-red-300 to-blue-300",
     title: "Cyberstudio",
     desc: "Photography studio Web page.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/CyberstudioPrincipal.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/HomePage.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     link: "https://cyberstudio.vercel.app/",
   },
   {
     id: 2,
-    color: "from-violet-300 to-purple-300",
+    color: "from-blue-300 to-violet-300",
     title: "Technology Blog",
     desc: "Blog that includes all the programming knowledge I have acquired.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/TechnologyBlog.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -23,7 +23,7 @@ const items = [
   },
   {
     id: 3,
-    color: "from-red-300 to-blue-300",
+    color: "from-violet-300 to-purple-300",
     title: "SecondPrime",
     desc: "E-commerce dedicated to technology sales.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/PageUpSecondPrime.PNG?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: 4,
-    color: "from-blue-300 to-violet-300",
+    color: "from-purple-300 to-red-300",
     title: "Travel Agency",
     desc: "Project for a travel agency from a popular bank.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/principalTravelAgency.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -39,7 +39,7 @@ const items = [
   },
 ];
 
-const PortfolioPage = () => {
+const WorksPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
@@ -53,10 +53,10 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
+        <div className="h-[calc(100vh-6rem)] w-screen flex items-center justify-center text-center text-8xl">
           My Works
         </div>
-        <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
+        <div className="h-screen sticky flex items-center top-0 gap-4 overflow-hidden">
           <motion.div style={{ x }} className="flex">
             <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
             {items.map((item) => (
@@ -64,18 +64,18 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
                 key={item.id}
               >
-                <div className="flex flex-col gap-6 text-white">
-                  <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl">
+                <div className="flex flex-col text-white gap-6">
+                  <h1 className="font-bold text-xl md:text-2xl lg:text-4xl xl:text-6xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-500px lg:h-350px xl:w-600px xl:h-420px">
-                    <Image src={item.img} alt="image" fill/>
+                  <div className="h-56 md:h-64 lg:h-350px xl:h-420px w-80 md:w-96 lg:w-500px xl:w-600px relative">
+                    <Image src={item.img} alt="image" fill />
                   </div>
-                  <p className="w-80 md:w-96 lg:w-500px lg:text-lg xl:w-600px text-justify">
+                  <p className="w-80 md:w-96 lg:w-500px xl:w-600px lg:text-lg text-justify">
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="text-sm md:p-4 md:text-md lg:p-2 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                    <button className="text-sm md:text-md lg:text-lg bg-white text-gray-600 font-semibold md:p-4 lg:p-2 m-4 rounded">See Page</button>
                   </Link>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col items-center justify-center text-center overflow-clip">
+      <div className="h-screen w-screen flex flex-col items-center justify-center text-center overflow-clip">
         <h1 className="text-6xl">Do you have a project?</h1>
         <div className="relative">
           <motion.svg
@@ -106,14 +106,14 @@ const PortfolioPage = () => {
           </motion.svg>
           <Link
             href="/contact"
-            className="absolute w-16 h-16 md:w-28 md:h-28 top-0 left-0 right-0 bottom-0 m-auto text-white rounded-lg flex items-end justify-center"
+            className="h-16 md:h-28 w-16 md:w-28 absolute flex items-end justify-center top-0 left-0 right-0 bottom-0 m-auto text-white rounded-lg"
           >
-           <h1 className="bg-black text-sm sm:text-md md:text-xl lg:text-xl xl:text-xl">Hire Me</h1>
-           </Link>
+            <h1 className="bg-black text-sm sm:text-md md:text-xl">Hire Me</h1>
+          </Link>
         </div>
       </div>
     </motion.div>
   );
 };
 
-export default PortfolioPage;
+export default WorksPage;
