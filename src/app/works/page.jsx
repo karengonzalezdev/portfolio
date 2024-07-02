@@ -32,6 +32,14 @@ const items = [
   {
     id: 4,
     color: "from-purple-300 to-red-300",
+    title: "Pokedex",
+    desc: "Page for viewing Pokemons ans their information",
+    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/Pokedex.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    link: "https://pokedex-lovat-three.vercel.app/",
+  },
+  {
+    id: 5,
+    color: "from-red-300 to-blue-300",
     title: "Travel Agency",
     desc: "Project for a travel agency from a popular bank.",
     img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/principalTravelAgency.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -43,7 +51,7 @@ const WorksPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-83%"]);
 
   return (
     <motion.div
@@ -68,7 +76,7 @@ const WorksPage = () => {
                   <h1 className="font-bold text-xl md:text-2xl lg:text-4xl xl:text-6xl">
                     {item.title}
                   </h1>
-                  <div className="h-56 md:h-64 lg:h-350px xl:h-420px w-80 md:w-96 lg:w-500px xl:w-600px relative">
+                  <div className="h-56 md:h-64 lg:h-350px xl:h-420px relative">
                     <Image src={item.img} alt="image" fill />
                   </div>
                   <p className="w-80 md:w-96 lg:w-500px xl:w-600px lg:text-lg text-justify">
@@ -90,7 +98,7 @@ const WorksPage = () => {
             animate={{ rotate: 360 }}
             transition={{ duration: 8, ease: "linear", repeat: Infinity }}
             viewBox="0 0 300 300"
-            className="w-64 h-64 md:w-[500px] md:h-[500px] "
+            className="w-64 h-64 md:w-[500px] md:h-[500px]"
           >
             <defs>
               <path
