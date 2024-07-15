@@ -5,14 +5,14 @@ import TransitionProvider from "@/components/transitionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL("https://karenfggutierrez.github.io/portfolio"),
+  metadataBase: new URL("https://karengonzalezdev.github.io/portfolio"),
 
   openGraph: {
     title: "Karen Gonzalez Portfolio",
     description: "Portfolio generated with Next.js",
     images: [
       {
-        url: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/HomePage.PNG",
+        url: "https://raw.githubusercontent.com/karengonzalezdev/Images/main/HomePage.PNG",
         width: 800,
         heigh: 600,
         alt: "portfolio"

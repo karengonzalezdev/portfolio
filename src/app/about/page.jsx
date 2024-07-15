@@ -23,7 +23,7 @@ const AboutPage = () => {
           <div className="flex flex-col justify-center gap-12">
             {/* IMAGE */}
             <div className="h-[10rem] w-[10rem] relative justify-center m-auto">
-              <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/ProfilePicture.jpg" alt="Profile picture" fill priority className="absolute rounded-full" />
+              <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/ProfilePicture.jpg" alt="Profile picture" fill priority className="absolute rounded-full" />
             </div>
             <h1 className="items-center justify-center text-center font-bold text-2xl">ABOUT ME</h1>
             <p className="text-justify text-lg">I am a proactive and dedicated Front End Developer, who focuses on solving problems applying creativity. I am interested in keep on growing in this field, and being in constant learning. My main skills are JavaScript, React.js, HTML and CSS</p>

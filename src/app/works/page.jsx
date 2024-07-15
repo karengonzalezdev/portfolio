@@ -10,7 +10,7 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "Cyberstudio",
     desc: "Photography studio Web page.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/HomePage.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/HomePage.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     link: "https://cyberstudio.vercel.app/",
   },
   {
@@ -18,23 +18,23 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Technology Blog",
     desc: "Blog that includes all the programming knowledge I have acquired.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/TechnologyBlog.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://karenfggutierrez.github.io/blog/",
+    img: "https://raw.githubusercontent.com/karengonzalezdev/Images/main/TechnologyBlog.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    link: "https://karengonzalezdev.github.io/blog/",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
     title: "SecondPrime",
     desc: "E-commerce dedicated to technology sales.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/PageUpSecondPrime.PNG?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://karenfggutierrez.github.io/SecondPrime/",
+    img: "https://raw.githubusercontent.com/karengonzalezdev/Images/main/PageUpSecondPrime.PNG?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    link: "https://karengonzalezdev.github.io/SecondPrime/",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "Pokedex",
     desc: "Page for viewing Pokemons ans their information",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/Pokedex.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "https://raw.githubusercontent.com/karengonzalezdev/Images/main/Pokedex.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     link: "https://pokedex-lovat-three.vercel.app/",
   },
   {
@@ -42,8 +42,8 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "Travel Agency",
     desc: "Project for a travel agency from a popular bank.",
-    img: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/principalTravelAgency.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://karenfggutierrez.github.io/TravelAgency/#/principal",
+    img: "https://raw.githubusercontent.com/karengonzalezdev/Images/main/principalTravelAgency.PNG?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    link: "https://karengonzalezdev.github.io/TravelAgency/#/principal",
   },
 ];
 

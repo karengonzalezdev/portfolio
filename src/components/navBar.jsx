@@ -77,10 +77,10 @@ const NavBar = () => {
       </div>
       {/* SOCIAL */}
       <div className="w-1/2 md:w-1/3 flex gap-2 sm:gap-4">
-        <Link href="https://github.com/karenfggutierrez">
+        <Link href="https://github.com/karengonzalezdev">
           <img src="./github.png" alt="GitHub" width={24} height={24} />
         </Link>
-        <Link href="https://www.linkedin.com/in/karenfggutierrez">
+        <Link href="https://www.linkedin.com/in/karengonzalezdev">
           <img src="./linkedin.png" alt="LinkedIn" width={24} height={24} />
         </Link>
         <Link href="https://www.figma.com/@karenfggtz">
