@@ -83,7 +83,7 @@ const NavBar = () => {
         <Link href="https://www.linkedin.com/in/karengonzalezdev">
           <img src="./linkedin.png" alt="LinkedIn" width={24} height={24} />
         </Link>
-        <Link href="https://www.figma.com/@karenfggtz">
+        <Link href="https://www.figma.com/@karenglezdev">
           <img src="./figma.png" alt="Figma" width={24} height={24} />
         </Link>
         <Link href="https://www.workana.com/freelancer/12400a56e29dde332e4b9b1c3bc20035">
